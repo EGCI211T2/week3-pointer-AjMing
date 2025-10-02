@@ -5,5 +5,6 @@ compile: main.cpp
 run: $(DEPS) 
 	 ./$(DEPS) $(var)
 
+
 clean: $(DEPS)
 	 rm $(DEPS)
